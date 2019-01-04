@@ -10,6 +10,7 @@ namespace GrafFeladat_CSharp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine();
             var graf = new Graf(6);
 
             graf.Hozzaad(0, 1);
